@@ -1028,6 +1028,14 @@ h4 {
     }
 }
 
+.citation{
+    font-size: 22px;
+    line-height: 1.4em;
+    font-family: "helvetica";
+    font-weight: 400;
+    font-style: italic;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1040,3 +1048,9 @@ h4 {
         text-align: center;
     }
 }
+
+/* On the screens, when the window width is at most 768px for the smartphone */
+@media screen and ( min-width : 100px) and ( max-width : 767px){}
+
+/* On the screens, when the window width is between 769px and at most 991px for the tablet */
+@media screen and ( min-width : 768px) and ( max-width : 991px){}
