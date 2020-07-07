@@ -18,6 +18,22 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus{
+    border: 2px solid red;
+}
+
+img:focus{
+    border: 2px solid red;
+}
+
+input:focus{
+    border: 2px solid blue; 
+}
+
+button:focus{
+    border: 2px solid red;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -25,6 +41,17 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+input{
+    width: 42%;
+    height: 34px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 5px;
 }
 
 .bloc {
@@ -639,7 +666,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -707,6 +734,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+
 }
 
 h3 {
@@ -723,7 +751,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C !important;
 }
 
 h4 {
@@ -775,7 +803,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+   color: #F3976C !important;
 }
 
 .btn-atomic-tangerine {
@@ -1036,16 +1064,56 @@ h4 {
     font-style: italic;
 }
 
+.talk-to-us{
+    font-size: 36px;
+}
+
+.welcome-message{
+    font-size: 1rem;
+    color: black !important;
+}
+
+.keywords{
+    display: none;
+}
+
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 70%;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .row.row-no-gutters > [class^="col-"],
+    .row.row-no-gutters > [class*=" col-"] {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 70%;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .row.row-no-gutters > [class^="col-"],
+    .row.row-no-gutters > [class*=" col-"] {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
