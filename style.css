@@ -44,7 +44,7 @@ button:focus{
 }
 
 input{
-    width: 42%;
+    width: 340px;
     height: 34px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -72,7 +72,7 @@ label{
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 75px 50px;
 }
 
 .bloc-md {
@@ -118,7 +118,7 @@ label{
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-mini.png");
     background-size: 280px 280px;
 }
 
@@ -846,7 +846,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-mini.jpg");
 }
 
 .bg-presentation {
@@ -1069,12 +1069,25 @@ h4 {
 }
 
 .welcome-message{
-    font-size: 1rem;
     color: black !important;
+    text-align: center;
 }
 
-.keywords{
-    display: none;
+.welcome-paragraph{
+    color: black !important;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 2%;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.url-links{
+    margin: auto;
+    width: 70%;
 }
 
 
