@@ -1,0 +1,23 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType favicon-mini.jpg "access 1 year"
+ExpiresByType img/2-mini-rsz.jpg "access 1 year"
+ExpiresByType img/1-mini-rsz.jpg"access 1 year"
+ExpiresByType img/la-chouette-agence-banniere-mini.jpg"access 1 year"
+ExpiresByType img/la-chouette-agence-mini.png "access 1 year"
+ExpiresByType img/lines-h2-bg-mini.png "access 1 year"
+ExpiresByType img/logo-mini.png "access 1 year"
+ExpiresByType img/texture-paper-mini.png  "access 1 year"
+ExpiresByType css/bootstrap.css "access 1 month"
+ExpiresByType css/et-line.css "access 1 month"
+ExpiresByType css/font-awesome.css  "access 1 month"
+ExpiresByType js/blocs.js  "access 1 month"
+ExpiresByType js/bootstrap.js"access 1 month"
+ExpiresByType js/gmaps.js"access 1 month"
+ExpiresByType js/jquery-2.1.0.js  "access 1 month"
+ExpiresByType js/jquery.touchSwipe.js   "access 1 month"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
